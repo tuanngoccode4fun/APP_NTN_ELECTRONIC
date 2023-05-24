@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:APP_NTN_ELECTRONIC"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500.548" Width="876.438">
+        Title="NTN_LED" Height="500.548" Width="876.438">
     <Grid>
 
     </Grid>
