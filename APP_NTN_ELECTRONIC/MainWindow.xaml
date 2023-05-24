@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:APP_NTN_ELECTRONIC"
         mc:Ignorable="d"
-        Title="NTN_LED" Height="500.548" Width="876.438">
+        Title="NTN_LED" Height="500.548" Width="765.479" ResizeMode="NoResize">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="302*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="bt_load_image" Content="Load Image" HorizontalAlignment="Left" Height="53" Margin="20,31,0,0" VerticalAlignment="Top" Width="146" Click="bt_load_image_Click"/>
+        <Image x:Name="imageControl" Margin="20,100,99.767,196" OpacityMask="#FFE29393" Stretch="Fill"/>
+        <StackPanel x:Name="StackPanelImage" Orientation="Vertical" Grid.Column="1"/>
 
     </Grid>
 </Window>
